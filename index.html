@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>Visual Studio Code - Code Editor</title>
+  </head>
+  <style>
+    header {
+      margin: 0px;
+    }
+    body {
+      background-color: #0e0e0e;
+      color: white;
+      margin: 0px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 150px;
+      padding-right: 150px;
+      font-size: 20px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+      color: #9ba3b4;
+      margin-bottom: 20px;
+    }
+    a {
+      padding-right: 4px;
+    }
+    .row1,
+    .row2 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    /* .row2 {
+      padding-right: 5px;
+    } */
+
+    .topLink {
+      color: #9ba3b4;
+      cursor: pointer;
+      padding-left: 15px;
+      font-size: 18px;
+    }
+  </style>
+  <link rel="stylesheet" href="./style.css" />
+  <body>
+    <header>
+      <div class="container">
+        <div class="row1">
+          <img
+            src="./favicon.ico"
+            alt="Logo"
+            height="25px"
+            style="padding-right: 10px"
+          />
+          <span>Visual Studio Code</span>
+          <span class="topLink">Docs</span>
+          <span class="topLink">Updates</span>
+          <span class="topLink">Blog</span>
+          <span class="topLink">API</span>
+          <span class="topLink">Extensions</span>
+          <span class="topLink">FAQs</span>
+          <span class="topLink">Learn</span>
+        </div>
+        <div class="row2">
+          <img src="./theme-light.svg" alt="Dark theme logo" / height="25px">
+          <input type="text" placeholder="Search Docs" />
+          <button>Download</button>
+        </div>
+      </div>
+      <br />
+
+      <div class="banner">
+        <a href="/">Version 1.82</a> is now available! Read about the new
+        features and fixes from July.
+      </div>
+    </header>
+
+    <section class="pg1">
+      <div class="body1">
+        <div class="Text">
+          <div id="round-div" class="right">
+            Free. Built on open source. Runs everywhere.
+          </div>
+          <div class="right">
+            <h1>Code Editing. <br />Redefined.</h1>
+          </div>
+
+          <div class="download right">
+            <div><button>Download For Windows</button></div>
+            <p>
+              <a href="">Web</a>, <a href="">Insiders edition</a>, or
+              <a href="">other platforms</a>
+            </p>
+
+            <p id="subtext">
+              By using VS Code, you agree to its <a href="">license</a> and
+              <a href="">privacy statement.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="Pic">
+          <div><img src="./image1.png" alt="demo pic" / width="800px"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

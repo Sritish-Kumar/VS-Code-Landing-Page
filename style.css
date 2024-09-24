@@ -1,0 +1,84 @@
+div.body1{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+
+}
+
+div.text{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+div.pic{
+    margin-right: 40px;
+}
+
+#round-div{
+    margin-top: 35px;
+    border: 1px solid rgba(255,255,255,0.07);
+    padding: 10px;
+    color: #9ba3b4;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.04);
+}
+
+h1{
+    font-size: 56px;
+    margin-top: 15px;
+    
+    margin-bottom: 40px;
+}
+
+div.download button{
+    height: 70px;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0px;
+    color: white;
+    background-color: #0078d4;
+
+}
+div.download p{
+    color:  #9ba3b4;
+}
+
+#subtext{
+    font-size: 11px;
+    color:  #9ba3b4;
+}
+
+div.right{
+    margin-left: 15px;
+}
+
+a{
+    color: #4daafc;
+}
+
+div.row2>button{
+    height: 30px;
+    width: 100px;
+    padding: 8px 16px 8px 16px;
+    border: 0px ;
+    color: white;
+    background-color: #0078d4;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input{
+    height:30px;
+    padding-top: 6px;
+    border: 2px solid rgba(255,255,255,0.15);
+    background: transparent;
+    color:#9ba3b4;
+    border-radius: 5px;
+}
